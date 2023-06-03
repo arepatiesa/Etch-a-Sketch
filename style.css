@@ -1,96 +1,92 @@
-
-html{
-    font-family: 'Roboto', sans-serif;    
+html {
+  font-family: "Roboto", sans-serif;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px;
-}
-
-h1{
-    font-size: 40px;
-    margin: 10px;  
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
 }
 
-#main{
-    display: flex;
-    flex-direction: row;    
-    gap: 20px;
-
+h1 {
+  font-size: 40px;
+  margin: 10px;
 }
 
-button{
-    background-color: white;
-    border: 2px solid;
-    border-radius: 50px 50px 50px 50px;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-}
-button:hover{
-    background-color: rgb(222, 222, 222);
-
+#main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-#menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 5px solid;
-    border-radius: 50px;
-    width: 150px;
-    background-color: rgb(244, 244, 244);
-    gap: 10px;
+button {
+  background-color: white;
+  border: 2px solid;
+  border-radius: 50px 50px 50px 50px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
 }
-#container{
-display: inline-grid;
-border: 5px solid black;
-border-radius: 5px;
-width: 500px;
-height: 500px;
+button:hover {
+  background-color: rgb(222, 222, 222);
 }
 
-#color{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    padding: 6px;
-    border: 2px solid;
-    background-color: white;
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid;
+  border-radius: 50px;
+  width: 150px;
+  background-color: rgb(244, 244, 244);
+  gap: 10px;
+}
+#container {
+  display: inline-grid;
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
 }
 
-.div-hover{
-    background-color: white;
+#color {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 6px;
+  border: 2px solid;
+  background-color: white;
 }
 
-footer{
-    position:fixed;
-    margin-top: 30px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    height: 25px;
-    align-items: center;
-
+.div-hover {
+  background-color: white;
 }
 
-.menu-icons{
-    fill: black;
-    width: 25px;
+footer {
+  position: fixed;
+  margin-top: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  height: 25px;
+  align-items: center;
 }
 
-.github-icon{
-    fill: white;
-    height:25px;
+.menu-icons {
+  fill: black;
+  width: 25px;
+}
+
+.github-icon {
+  fill: white;
+  height: 25px;
 }
