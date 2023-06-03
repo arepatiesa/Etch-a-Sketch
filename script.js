@@ -17,11 +17,11 @@ function resetGrid() {
 }
 
 function setGrid() {
-  let grid = prompt("Squares per size"); //pregunta un num
+  let grid = prompt("Squares per size (Max 64x64)"); //pregunta un num
   let newGrid = parseInt(grid);
   console.log(typeof newGrid);
   if (newGrid > 64) {
-    alert("The number must be lesser than 100");
+    alert("The number must be lesser than 64");
   } else if (grid != null && grid != "") {
     resetGrid();
     createGrid(newGrid);
